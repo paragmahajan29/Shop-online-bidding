@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<coustomers>
+  <customer>
+    <cid>1</cid>
+    <fname>parag</fname>
+    <lname>mahajan</lname>
+    <email>paragmahajan29@gmail.com</email>
+    <password>dRzwuE</password>
+  </customer>
+  <customer>
+    <cid>2</cid>
+    <fname>gaurav</fname>
+    <lname>chopade</lname>
+    <email>gp@gmail.com</email>
+    <password>WuC5N4</password>
+  </customer>
+  <customer>
+    <cid>3</cid>
+    <fname/>
+    <lname/>
+    <email/>
+    <password>4avZhx</password>
+  </customer>
+  <customer>
+    <cid>4</cid>
+    <fname>Parag </fname>
+    <lname>Mahajan</lname>
+    <email>parymjn29@gmail.com</email>
+    <password>OkLSt0</password>
+  </customer>
+  <customer>
+    <cid>5</cid>
+    <fname>Parag</fname>
+    <lname>Mahajan</lname>
+    <email>Paragbhvhcv@bbhbb.com</email>
+    <password>KLdjnb</password>
+  </customer>
+  <customer>
+    <cid>6</cid>
+    <fname>rohit</fname>
+    <lname>narkhede</lname>
+    <email>smartyrn@gmail.com</email>
+    <password>1FLpI8</password>
+  </customer>
+</coustomers>

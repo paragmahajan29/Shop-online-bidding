@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>Assignment2</title>
+    <script type="text/javascript" src="login.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+    
+<body>
+
+<section style="width:100%;">
+  <h1 class="mcenter"><font face="Trebuchet MS" color="blue">ShopOnline</font></h1> 
+	<p  class="mcenter">
+		<a href="login.htm"  >Home</a>
+		<a href="listing.htm"  >Listing</a>
+		<a href="bidding.htm"  >Bidding</a>
+		<a href="maintenance.htm" >Maintenance</a>
+		<a href="logout.php" >Log Out</a>
+		<h2 class="mcenter"> ___________________________________________________________</h2>
+	</p>
+	<p  class="mcenter">
+	Please <i>login</i> below or to register as a new user, <a href="register.htm">Register Here.</a>
+	</p>
+</section>
+
+  
+<form name="loginForm" action="login.php" method="post">
+	<fieldset>
+		<legend><b>Login Details</b></legend>
+		<p class="mleft"><i><font color="red">*Required Fields</font></i></p>
+		<table>
+			<tr>
+				<td class="mright">Email<font color="red">*</font>:</td>
+				<td class="mleft"><input type="text" name="loginemail" id="loginemail" required="true" size="50"></td>
+			</tr>
+			<tr>
+				<td class="mright">Password<font color="red">*</font>:</td>
+				<td class="mleft"><input type="password" name="password" id="password" required="true" size="50"></td>
+			</tr>
+			<tr>
+				<td class="mleft">
+					<input type="submit" id="btnlogin" value="Login" onclick="validateLogin()">
+					<input type="reset" id="reset"  value="Reset" />
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+ 
+
+</body>
+</html>

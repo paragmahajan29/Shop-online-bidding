@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Listing</title>
+    	<script type="text/javascript" src="common.js"></script>
+    	<script type="text/javascript" src="listing.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />	
+</head>
+    
+<body>
+
+<section style="width:100%;">
+  <h1 class="mcenter"><font face="Trebuchet MS" color="blue">ShopOnline</font></h1> 
+<p  class="mcenter">
+	
+	<a href="login.htm"  >Home</a>
+	<a href="listing.htm"  >Listing</a>
+	<a href="bidding.htm"  >Bidding</a>
+	<a href="maintenance.htm"  >Maintenance</a>
+	<a href="logout.php" >Log Out</a>
+	
+	<h2 class="mcenter"> ___________________________________________________________</h2>
+	</p>
+	<p  class="mcenter"><i>To create a listing, enter listing details below.</i>
+	</p>
+</section>
+
+  
+<form id="listing_input">
+	<fieldset class="listing">
+		<legend ><b>Seller Details</b></legend>
+		<p  font color="red" class="mleft"><i><font color="red">*Required Fields</font></i></p>
+		<table>
+			<tr>
+				<td class="mright">Item Name <font color="red">*</font> </td>
+				<td><input type="text" name="itemname" id="itemname" size="35" /></td>
+			</tr>
+			<tr>
+				<td class="mright">Category <font color="red">*</font> </td>
+				<td class="mleft">
+					<select  value="category" name="category" id="category">
+						<option>Camera</option>
+						<option>Phone</option>
+						<option>Other</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="mright">Description <font color="red">*</font>  
+				</td><td><input type="text" name="description" id="description" size="35" /></td>
+			</tr>
+			<tr>
+				<td class="mright">Start Price <font color="red">*</font>  </td>
+				<td class="mleft">
+					<input type="text" name="startpriced" id="startpriced" size="5" maxlength="5" />
+					<input type="text" name="startpricec" id="startpricec" size="3" maxlength="2" value="00"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="mright">Reserve Price <font color="red">*</font>  </td>
+				<td class="mleft">
+					<input type="text" name="reservepriced" id="reservepriced" size="5" maxlength="5" />
+					<input type="text" name="reservepricec" id="reservepricec" size="3" maxlength="2" value="00"/></td>
+			</tr>
+			<tr>
+				<td class="mright">Buy It Now Price <font color="red">*</font>  </td>
+				<td class="mleft">
+					<input type="text" name="buyitnowpriced" id="buyitnowpriced" size="5" maxlength="5" />
+					<input type="text" name="buyitnowpricec" id="buyitnowpricec" size="3" maxlength="2" value="00"/>
+				</td>
+			</tr>		
+			<tr>
+				<td class="mright">Duration <font color="red">*</font> </td>
+				<td class="mleft">
+					<script>
+						displayTimeDay();
+						displayTimeHours();
+						displayTimeMinutes();
+					</script>  
+			</td>
+		</tr>
+			
+		<tr>
+			<td></td>
+			<td class="mleft">
+				<input type="button" id="btnlisting" value="Listing" onclick="addListing()">
+				<input type="reset" id="resetform" value="Reset">
+			</td>
+		</tr>
+		</table>
+	</fieldset>
+</form>
+
+<section id="displayNotification"> 
+</section>
+
+
+</body>
+</html>

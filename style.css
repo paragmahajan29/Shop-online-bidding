@@ -1,0 +1,52 @@
+fieldset 
+{
+	border: 1px solid #000000;
+	margin:auto;
+	width:700px;
+	height: 240px ;
+	text-align:center;
+	
+}
+
+
+
+table{
+	margin:auto;
+}
+
+.mright{
+	text-align:right;
+}
+
+.mleft{
+	text-align:left;
+}
+
+.mcenter{
+	text-align:center;
+}
+
+.listing 
+{
+	border: 1px solid #000000;
+ 	margin:auto;
+	width:800px;
+	height: 300px;
+	text-align:center;
+}
+
+.biditems{
+height:200px; 
+}
+
+#placebid{
+background-color:blue;
+color:white;
+border-radius: 4px;
+}
+
+#buyitnow{
+background-color:green;
+color:white;
+border-radius: 4px;
+}

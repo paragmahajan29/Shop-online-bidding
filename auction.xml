@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<auctions>
+  <auction>
+    <itemid>1</itemid>
+    <customerid>1</customerid>
+    <itemname>s4</itemname>
+    <category>Phone</category>
+    <description>new phone</description>
+    <startdate>19/05/2015</startdate>
+    <starttime>15:23</starttime>
+    <enddate>01/06/2015</enddate>
+    <endtime>20:34</endtime>
+    <status>SOLD</status>
+    <bidprice>800.00</bidprice>
+    <reserveprice>600.00</reserveprice>
+    <buyitnowprice>800.00</buyitnowprice>
+  </auction>
+  <auction>
+    <itemid>2</itemid>
+    <customerid>1</customerid>
+    <itemname>s5</itemname>
+    <category>Phone</category>
+    <description>ikhh</description>
+    <startdate>19/05/2015</startdate>
+    <starttime>15:24</starttime>
+    <enddate>04/06/2015</enddate>
+    <endtime>07:35</endtime>
+    <status>SOLD</status>
+    <bidprice>1000.00</bidprice>
+    <reserveprice>800.00</reserveprice>
+    <buyitnowprice>1000.00</buyitnowprice>
+  </auction>
+  <auction>
+    <itemid>3</itemid>
+    <customerid>1</customerid>
+    <itemname>s6</itemname>
+    <category>Phone</category>
+    <description>ewfwrf</description>
+    <startdate>19/05/2015</startdate>
+    <starttime>15:24</starttime>
+    <enddate>07/06/2015</enddate>
+    <endtime>03:35</endtime>
+    <status>in_progress</status>
+    <bidprice>100.00</bidprice>
+    <reserveprice>700.00</reserveprice>
+    <buyitnowprice>1100.00</buyitnowprice>
+  </auction>
+  <auction>
+    <itemid>4</itemid>
+    <customerid>1</customerid>
+    <itemname>Iphone 6</itemname>
+    <category>Phone</category>
+    <description>new nice gadget</description>
+    <startdate>20/05/2015</startdate>
+    <starttime>13:28</starttime>
+    <enddate>21/05/2015</enddate>
+    <endtime>17:33</endtime>
+    <status>in_progress</status>
+    <bidprice>200.00</bidprice>
+    <reserveprice>900.00</reserveprice>
+    <buyitnowprice>1000.00</buyitnowprice>
+  </auction>
+  <auction>
+    <itemid>5</itemid>
+    <customerid>1</customerid>
+    <itemname>iphone 5s</itemname>
+    <category>Phone</category>
+    <description>working greate</description>
+    <startdate>20/05/2015</startdate>
+    <starttime>13:29</starttime>
+    <enddate>28/05/2015</enddate>
+    <endtime>02:40</endtime>
+    <status>in_progress</status>
+    <bidprice>100.00</bidprice>
+    <reserveprice>500.00</reserveprice>
+    <buyitnowprice>600.00</buyitnowprice>
+  </auction>
+  <auction>
+    <itemid>6</itemid>
+    <customerid>1</customerid>
+    <itemname>Nikon SLR</itemname>
+    <category>Camera</category>
+    <description>Professional guys grab it</description>
+    <startdate>20/05/2015</startdate>
+    <starttime>13:30</starttime>
+    <enddate>24/05/2015</enddate>
+    <endtime>00:40</endtime>
+    <status>in_progress</status>
+    <bidprice>200.00</bidprice>
+    <reserveprice>600.00</reserveprice>
+    <buyitnowprice>700.00</buyitnowprice>
+  </auction>
+  <auction>
+    <itemid>7</itemid>
+    <customerid>1</customerid>
+    <itemname>Xperia z3</itemname>
+    <category>Phone</category>
+    <description>vhvb</description>
+    <startdate>20/05/2015</startdate>
+    <starttime>13:31</starttime>
+    <enddate>24/05/2015</enddate>
+    <endtime>15:33</endtime>
+    <status>in_progress</status>
+    <bidprice>200.00</bidprice>
+    <reserveprice>780.00</reserveprice>
+    <buyitnowprice>800.00</buyitnowprice>
+  </auction>
+</auctions>
